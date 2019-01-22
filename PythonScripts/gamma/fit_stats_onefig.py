@@ -77,7 +77,7 @@ def main():
 	dir_in = 'TvsH_all'
 	
 	coord_dict = get_data(dir_in)
-	ASA_dict = get_area('hydrophobic_surface_area_fibrils_sub.txt')
+	ASA_dict = get_area('ASA\\hydr_ASA_fibrils.txt')
 	
 	f_out = open('Fits_combined.txt', 'w')
 	f_out.write('Protein\tC_h\tgamma\tEint\n')
@@ -91,9 +91,11 @@ def main():
 	fig.plot(range(280, 350, 10), [0]*len(range(280, 350, 10)), 'b', label=r'$\Delta H = 0$', color='black', dashes=[4, 2], linewidth=0.8)
 	
 	keys = coord_dict.keys()
+	print keys
 	order = ['L-phe', 'di-phe', 'gluc', 'syn', 'mic', 'lac', 'GNNQQNY']
 	for i in range(len(order)):
 		x = order[i]
+		print x
 		if x == 'gluc':
 			gluc_keys = [v for v in keys if x in v or 'Data' in v]
 			colors = ['C2', 'g', 'C8']
