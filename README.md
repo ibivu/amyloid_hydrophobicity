@@ -2,7 +2,7 @@
 Data and scripts to generate the figures in the manuscript on the hydrophobic
 temperature dependence of amyloid fibril formation.
 
-Link to the source code of the model simulations: ......
+Link to the source code of the model simulations: https://bitbucket.org/abeln/amyloid_hydrophobe/src/master/
 
 The figures showing the analysis results of the simulations were generated
 with R scripts (version 3.5.2). If you run them, make sure to modify the directory names in
