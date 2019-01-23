@@ -9,10 +9,10 @@ with R scripts (version 3.5.2). If you run them, make sure to modify the directo
 'setDataSources.R'. Also modify the location of the data files ('/path/dataframesEnthaly_....Rdata')
 in each of the scripts.
 
-Figure 2a: HeatMap_SA.R
-Figure 2b+2c+S2: ManuscriptFiguresSA_ac_b.R
-Figure S1: PaggrFiguresSA.R
-Figure S3 + S4: SuppFiguresSA.R
+* Figure 2a: HeatMap_SA.R
+* Figure 2b+2c+S2: ManuscriptFiguresSA_ac_b.R
+* Figure S1: PaggrFiguresSA.R
+* Figure S3 + S4: SuppFiguresSA.R
 
 The figures showing the analysis results of the experiments were generated
 with Python scripts (version 2.7.15). Because for most figures multiple data
