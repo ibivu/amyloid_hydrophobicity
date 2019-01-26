@@ -100,7 +100,7 @@ def main():
 			gluc_keys = [v for v in keys if x in v or 'Data' in v]
 			colors = ['C2', 'g', 'C8']
 			newkey = 'glucagon'
-			area = ASA_dict[newkey][2]
+			area = ASA_dict[newkey][1]
 			for j in range(len(gluc_keys)):
 				key = gluc_keys[j]
 				gamma, Eint, fig = fit_H(coord_dict[key][0], coord_dict[key][1], fig, labels[i]+r'$^%d$'%(j+1), colors[j])
@@ -108,7 +108,7 @@ def main():
 		else:
 			key = [v for v in keys if x in v][0]
 			newkey = key
-			area = ASA_dict[newkey][2]
+			area = ASA_dict[newkey][1]
 			gamma, Eint, fig = fit_H(coord_dict[key][0], coord_dict[key][1], fig, labels[i], 'C' + `i`)
 			f_out.write('%s\t%s\t%.2E\t%f\n' % (key, area, gamma, Eint))
 		i += 1
