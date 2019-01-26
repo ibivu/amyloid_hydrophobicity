@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 #import matplotlib.axes as ax
 
 # Synuclein sequence
-asyn_2n0a_trunc = 'AGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKK'
+asyn_2n0a_trunc = 'LYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKK'
 
 # Read the ASA per aa
 #os.chdir(os.path.dirname(argv[0]))
