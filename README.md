@@ -12,18 +12,21 @@ with R scripts (version 3.5.2). If you run them, make sure to modify the directo
 'setDataSources.R'. Also modify the location of the data files ('/path/dataframesEnthaly_....Rdata')
 in each of the scripts.
 
-* Figure 2a: HeatMap_SA.R
-* Figure 2b+2c+S2: ManuscriptFiguresSA_ac_b.R
+* Figure 3: ManuscriptFiguresSA_ac_b.R
+* Figure 4: HeatMap_SA.R
 * Figure S1: PaggrFiguresSA.R
-* Figure S3 + S4: SuppFiguresSA.R
+* Figure S2 + S3: SuppFiguresSA.R
 
 ## Scripts and data for experimental analysis
 The figures showing the analysis results of the experiments were generated
 with Python scripts (version 2.7.15). Because for most figures multiple data
 files and/or scripts were used, these are organized per folder.
 
-* Figure 3a: gamma: calculate_ASA.py -> fit_stats_onefig.py
-* Figure 3b: gamma: plot_gamma.py (takes output from fit_stats_onefig.py as input) + barplot_ASA.py
-* Figure S5: ITC_asyn_mf_raw: plot_ITC_raw_data.py
-* Figure S7: depolymerisation: plot_glu_alac_depol.py
-* Figure S8: GNNQQNY: plot_gnnqqny.py
+* Figure 5a: gamma: calculate_ASA.py -> fit_stats_onefig.py
+* Figure 5b: gamma: plot_gamma.py (takes output from fit_stats_onefig.py as input) + barplot_ASA.py
+* Figure 6: ionic_strength: ions_urea.py
+* Figure S4: ITC_asyn_mf_raw: plot_ITC_raw_data.py
+* Figure S6: depolymerisation: plot_glu_alac_depol.py
+* Figure S7: GNNQQNY: plot_gnnqqny.py
+* Figure S8: fluorescence: plot_fluorescence_spectra.py
+* Figure S9: equilibration: fitting_g_340_330.py

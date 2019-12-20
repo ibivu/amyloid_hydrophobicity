@@ -10,12 +10,12 @@ reds = plt.get_cmap('Reds')
 blues = plt.get_cmap('Blues')
 greens = plt.get_cmap('Greens')
 
-flarray1=numpy.loadtxt("110824_alac_Bradford2.txt")
-flarray2=numpy.loadtxt("110815_glucagon_denaturants_42C_eq_RT_181126_analysis.csv")
+flarray1=numpy.loadtxt("alac_ratio.txt")
+flarray2=numpy.loadtxt("glucagon_ratio.txt")
 
 
-a = -58324.4
-b = 11561.8
+a = -51225.5866
+b = 6194.09369
 c = -52464.7
 d = 10464.7
 
@@ -43,6 +43,6 @@ xlabel(r'[GndHCl]', fontsize = 20)
 ylabel('Fraction of soluble protein', fontsize = 20)
 legend(loc=0)
 ylim([-0.1,1.2])
-xlim([0,4])
+xlim([0,7])
 
 show()
